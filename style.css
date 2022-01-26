@@ -1,3 +1,13 @@
-.xr {
-list-style-image:url('/img/xrstrong.jpg')
+body {
+    border: 1px solid black;
+    width: 950px;
+    margin: 0 auto;
+    border-radius: 5px
+}
+
+header{
+    background-image: url('img/top5snuns.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
