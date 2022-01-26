@@ -1,11 +1,11 @@
 body {
-    background-color:
-
-    
+    margin: auto;
+    background-color: #303030;
 }
+/* största div*/
 .main{
-    background-color:
-    border: 1px solid black;
+    background-color: white;
+    border: none;
     width: 950px;
     margin: 0 auto;
     border-radius: 5px
@@ -13,26 +13,65 @@ body {
 
 }
 
-
+/* header bild*/
 .top5 {
     
     min-width: 100%
     
 }
-
+/* header rubrik*/
 h1 {
     font-size: 50px;
     text-align: center;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 
-
+/* bilder utan class*/
 img{
     max-width: 10%;
 }
-
+/* snus lista */
 li {
     padding: 2%;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.content{
+    display: flex;
+}
+
+/* priser*/
+dt {
+    padding: 65%;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    margin-top: 40px;
+}
+
+.htmlcerti {
+    width: 30%;
+    text-align: center;
+}
+
+.info {
+    width: 40%;
+}
+
+.csscerti {
+    width: 30%;
+    text-align: center;
+}
+
+.cssbild {
+    max-width: 70%;
+}
+
+.htmlbild {
+    max-width: 70%;
 }
