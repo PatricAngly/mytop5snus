@@ -37,16 +37,29 @@ li {
     padding: 2%;
     font-size: 25px;
     font-family: fantasy;
+    margin-inline: 20px;
 }
 
 .content{
     display: flex;
 }
 
+.snusbild
+{
+    border: none;
+    width: 80%;
+}
+
+.pris{
+    border: none;
+    width: 20%;
+}
+
 /* priser*/
 dt {
-    padding: 65%;
-    font-size: 25px;
+    padding: 280%;
+    font-size: 23px;
+    font-family: sans-serif;
 }
 
 footer {
@@ -74,4 +87,12 @@ footer {
 
 .htmlbild {
     max-width: 70%;
+}
+p{
+    margin: 0%;
+}
+
+.pdiv{
+        margin-top: 44px;
+        font-size: smaller;
 }
