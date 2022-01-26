@@ -3,7 +3,7 @@ body {
 
     
 }
-.center{
+.main{
     background-color:
     border: 1px solid black;
     width: 950px;
@@ -26,7 +26,13 @@ h1 {
     margin: 0 auto;
 }
 
-.main {
-    border: none;
-    margin: auto 15%;
+
+
+img{
+    max-width: 10%;
+}
+
+li {
+    padding: 2%;
+    font-size: 20px;
 }
