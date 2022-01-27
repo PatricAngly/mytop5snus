@@ -2,7 +2,7 @@ body {
     margin: auto;
     background-color: #303030;
 }
-/* största div*/
+/* sidans yta*/
 .main{
     background-color: white;
     border: none;
@@ -32,36 +32,36 @@ h1 {
 img{
     max-width: 10%;
 }
-/* snus lista */
+/* lista med bilder*/
 li {
     padding: 2%;
     font-size: 25px;
     font-family: fantasy;
     margin-inline: 20px;
 }
-
+/*för att divarna ska va sida vid sida*/
 .content{
     display: flex;
 }
-
+/*bredden på listan*/
 .snusbild
 {
     border: none;
     width: 80%;
 }
-
+/*bredden på priserna*/
 .pris{
     border: none;
     width: 20%;
 }
 
-/* priser*/
+/* justerar prislistan*/
 dt {
     padding: 280%;
     font-size: 23px;
     font-family: sans-serif;
 }
-
+/*sätter divar sida vid sida och maginalen uppåt*/
 footer {
     display: flex;
     margin-top: 40px;
@@ -73,7 +73,7 @@ footer {
 }
 
 .info {
-    width: 40%;
+    width: 50%;
 }
 
 .csscerti {
