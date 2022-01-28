@@ -1,5 +1,5 @@
-body{
-    
+body {
+    background-image: url("/img/snusprillor.jpg");
 }
 
 .main {
@@ -53,4 +53,7 @@ td, th{
 
 td {
     background-color: #b1b1b1;
+}
+header {
+    background-image: url("/img/snusprillor.jpg");
 }
